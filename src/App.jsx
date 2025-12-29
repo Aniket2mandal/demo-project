@@ -73,6 +73,7 @@ function App() {
           <p>Preview:</p>
           <img
             src={URL.createObjectURL(file)}
+            // test purpose
             alt="Preview"
             className="preview-image"
           />
